@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Notcheur</title>
+<meta name="description" content="Notcheur has no servers, no accounts and no analytics. Nothing you do in Notcheur is sent to us.">
+<style>
+  :root {
+    --bg: #0e0e14;
+    --panel: #16161e;
+    --text: #e8e8f0;
+    --muted: #9a9aae;
+    --accent: #6e6aff;
+    --line: rgba(255,255,255,.09);
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f7f7fa; --panel: #fff; --text: #1a1a22;
+      --muted: #5c5c70; --accent: #5145e5; --line: rgba(0,0,0,.1);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 48px 20px 96px;
+    background: var(--bg); color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { margin-bottom: 40px; }
+  .mark {
+    display: inline-flex; align-items: center; gap: 12px;
+    text-decoration: none; color: inherit; margin-bottom: 28px;
+  }
+  .mark svg { display: block; }
+  .mark span { font-weight: 600; font-size: 17px; letter-spacing: -.01em; }
+  h1 { font-size: 32px; line-height: 1.2; letter-spacing: -.02em; margin: 0 0 8px; }
+  .updated { color: var(--muted); font-size: 14px; margin: 0; }
+  .lede {
+    margin: 28px 0 0; padding: 18px 20px;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+    font-size: 17px;
+  }
+  h2 {
+    font-size: 20px; letter-spacing: -.01em;
+    margin: 44px 0 12px; padding-top: 20px; border-top: 1px solid var(--line);
+  }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a class="mark" href="https://github.com/Bigcheese1989/notcher-support">
+      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
+        <rect x="1" y="1" width="32" height="32" rx="8" fill="#16161e" stroke="#6e6aff" stroke-width="1.5"/>
+        <rect x="7" y="9" width="20" height="16" rx="5" fill="none" stroke="#6e6aff" stroke-width="1.8"/>
+        <rect x="14" y="8" width="6" height="3" rx="1.5" fill="#6e6aff"/>
+        <path d="M13 21.5v-7l8 7v-7" fill="none" stroke="#c4bcff" stroke-width="2.2"
+              stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Notcheur</span>
+    </a>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 12 August 2026</p>
+    <p class="lede">
+      <strong>Notcheur has no servers, no account and no analytics.</strong>
+      Nothing you do in Notcheur is sent to us, because there is nowhere for it to be sent.
+    </p>
+  </header>
+
+  <h2>What Notcheur collects</h2>
+  <p>
+    Nothing. Notcheur has no analytics, no crash reporting, no telemetry, no advertising
+    identifiers and no user accounts. We do not operate a server that Notcheur talks to.
+  </p>
+
+  <h2>What Notcheur accesses on your Mac</h2>
+  <p>
+    Notcheur works with data on your own machine. It stays there unless you use Apple's
+    iCloud, in which case it syncs to <em>your</em> iCloud account — not to us.
+  </p>
+  <ul>
+    <li>
+      <strong>Notes.</strong> Notes you write, including images you paste, are stored on
+      your Mac. If you're signed in to iCloud they sync between your own Macs through your
+      private iCloud database (Apple CloudKit). We have no access to it. Without iCloud,
+      notes stay local only.
+    </li>
+    <li>
+      <strong>Calendar.</strong> With your permission, Notcheur reads and creates events in
+      the calendars already on your Mac using Apple's EventKit framework. Event data is read
+      on demand to draw the calendar view. It is never copied off your Mac, stored by
+      Notcheur, or transmitted anywhere.
+    </li>
+    <li>
+      <strong>Clipboard.</strong> Notcheur keeps a short in-memory history of what you copy
+      so you can paste it again. It is not written to disk and is discarded when you quit.
+      Items copied on your other Apple devices may appear via Universal Clipboard.
+    </li>
+    <li>
+      <strong>Music and Spotify.</strong> With your permission, Notcheur uses Apple Events to
+      read the current track from Apple Music and Spotify and to send transport commands
+      (play, pause, skip, seek, volume). It reads only what's needed to display the track and
+      does not log or transmit your listening activity. Spotify album artwork is fetched from
+      Spotify's own image URL.
+    </li>
+    <li>
+      <strong>Focus.</strong> Notcheur can turn on a system Focus by running a Shortcut you
+      created yourself. It does not read your Focus status or your notifications.
+    </li>
+    <li>
+      <strong>Settings.</strong> Preferences such as hover delay and week start are stored
+      locally on your Mac.
+    </li>
+  </ul>
+
+  <h2>Network use</h2>
+  <p>Notcheur makes network connections only for:</p>
+  <ul>
+    <li>iCloud sync of your notes, to Apple's servers under your own account</li>
+    <li>Downloading album artwork for the currently playing Spotify track</li>
+    <li>App Store purchases, handled entirely by Apple's StoreKit</li>
+  </ul>
+  <p>There is no other network activity.</p>
+
+  <h2>Purchases</h2>
+  <p>
+    Purchases and subscriptions are processed by Apple. Notcheur receives only whether an
+    entitlement is active — it never sees your name, payment details or Apple Account.
+    Apple's handling of that transaction is covered by Apple's own privacy policy.
+  </p>
+
+  <h2>Children</h2>
+  <p>
+    Notcheur is not directed at children and collects no personal information from anyone,
+    including children.
+  </p>
+
+  <h2>Data deletion</h2>
+  <p>
+    Because Notcheur stores nothing on our side, there is nothing for us to delete. Removing
+    Notcheur's local data is done by deleting the app; notes synced to iCloud can be removed
+    from your iCloud account through Apple's own controls.
+  </p>
+
+  <h2>Changes</h2>
+  <p>
+    If this policy changes, the updated version will be posted at this address with a new
+    date above.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about this policy, or about Notcheur generally, can be raised on our
+    support page:
+    <a href="https://github.com/Bigcheese1989/notcher-support/issues">github.com/Bigcheese1989/notcher-support</a>
+  </p>
+
+  <footer>© 2026 Notcheur</footer>
+</main>
+</body>
+</html>

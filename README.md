@@ -44,4 +44,4 @@ System Settings ▸ your name ▸ Media & Purchases ▸ Subscriptions, or
 ## Privacy
 
 Notcheur collects nothing. No accounts, no analytics, no servers.
-See the [privacy policy](https://bigcheese1989.github.io/Notcher/site/privacy.html).
+See the [privacy policy](https://bigcheese1989.github.io/notcher-support/privacy.html).
